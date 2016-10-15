@@ -10,8 +10,50 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.daniel.scripture_reference.Scripture">
 
-    <TextView
+    <Button
+        android:text="@string/goButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_marginBottom="55dp"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text|number"
+        android:text="@string/Verse"
+        android:ems="10"
+        android:id="@+id/Verse"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/chapter"
+        android:singleLine="true"
+        android:selectAllOnFocus="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Chapter"
+        android:ems="10"
+        android:layout_marginTop="49dp"
+        android:id="@+id/chapter"
+        android:inputType="number"
+        android:layout_below="@+id/book"
+        android:layout_centerHorizontal="true"
+        android:singleLine="true"
+        android:selectAllOnFocus="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="@string/Book"
+        android:ems="10"
+        android:layout_marginTop="33dp"
+        android:id="@+id/book"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/chapter"
+        android:singleLine="true"
+        android:selectAllOnFocus="true" />
 </RelativeLayout>

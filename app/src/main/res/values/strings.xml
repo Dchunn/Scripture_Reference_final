@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Scripture_Reference</string>
+    <string name="app_name">Scripture Reference</string>
+    <string name="title_activity_reference">ReferenceActivity</string>
+    <string name="goButton">Go</string>
+    <string name="Verse">Verse</string>
+    <string name="Chapter">Chapter</string>
+    <string name="Book">Book</string>
+    <string name="defaultText">Your favorite scripture is: </string>
 </resources>
